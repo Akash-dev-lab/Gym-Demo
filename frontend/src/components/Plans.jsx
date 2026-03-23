@@ -5,7 +5,7 @@ const Plans = () => {
   const plansData = [
     {
       name: "Basic",
-      price: "$29",
+      price: "₹1499",
       period: "/month",
       features: [
         "Access to gym equipment",
@@ -17,7 +17,7 @@ const Plans = () => {
     },
     {
       name: "Standard",
-      price: "$49",
+      price: "₹2499",
       period: "/month",
       features: [
         "Everything in Basic",
@@ -29,7 +29,7 @@ const Plans = () => {
     },
     {
       name: "Premium",
-      price: "$79",
+      price: "₹3999",
       period: "/month",
       features: [
         "Everything in Standard",
