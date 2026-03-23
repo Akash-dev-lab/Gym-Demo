@@ -11,7 +11,7 @@ const Footer = () => {
             <div className="flex items-center gap-2">
               <Dumbbell className="w-8 h-8 text-orange-500" />
               <span className="text-2xl font-black tracking-tight text-white uppercase italic">
-                Elite Fitness
+                Envision Fitness
               </span>
             </div>
             <p className="text-slate-400 leading-relaxed">
@@ -47,15 +47,15 @@ const Footer = () => {
             <ul className="space-y-4">
               <li className="flex items-start gap-4">
                 <MapPin className="w-5 h-5 text-orange-500 shrink-0 mt-0.5" />
-                <span className="text-slate-400">123 Iron Street, Fitness District<br />New York, NY 10001</span>
+                <span className="text-slate-400">Shop no 116 savitri complex oppsite chaudhary mall G.t road, Ghaizabad, Uttar Pradesh 201009</span>
               </li>
               <li className="flex items-center gap-4">
                 <Phone className="w-5 h-5 text-orange-500 shrink-0" />
-                <span className="text-slate-400">+1 (555) 123-4567</span>
+                <span className="text-slate-400">07042209851</span>
               </li>
               <li className="flex items-center gap-4">
                 <Mail className="w-5 h-5 text-orange-500 shrink-0" />
-                <span className="text-slate-400">info@elitefitness.com</span>
+                <span className="text-slate-400">[EMAIL_ADDRESS]</span>
               </li>
             </ul>
           </div>

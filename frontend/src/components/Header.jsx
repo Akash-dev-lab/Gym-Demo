@@ -21,17 +21,16 @@ const Header = () => {
   ];
 
   return (
-    <header 
-      className={`fixed top-0 w-full z-50 transition-all duration-300 ${
-        isScrolled ? 'glass-nav py-3' : 'bg-transparent py-5'
-      }`}
+    <header
+      className={`fixed top-0 w-full z-50 transition-all duration-300 ${isScrolled ? 'glass-nav py-3' : 'bg-transparent py-5'
+        }`}
     >
       <div className="container mx-auto px-4 md:px-6">
         <div className="flex items-center justify-between">
           <div className="flex items-center gap-2">
             <Dumbbell className="w-8 h-8 text-orange-500" />
             <span className="text-xl md:text-2xl font-black tracking-tight text-white uppercase italic">
-              Elite Fitness
+              Envision Fitness
             </span>
           </div>
 
@@ -52,7 +51,7 @@ const Header = () => {
           </nav>
 
           {/* Mobile Menu Button */}
-          <button 
+          <button
             className="md:hidden text-white"
             onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
           >
