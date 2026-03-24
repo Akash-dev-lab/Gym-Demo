@@ -30,7 +30,7 @@ const Header = () => {
           <div className="flex items-center gap-2">
             <Dumbbell className="w-8 h-8 text-orange-500" />
             <span className="text-xl md:text-2xl font-black tracking-tight text-white uppercase italic">
-              Envision Fitness
+              King GYM
             </span>
           </div>
 
